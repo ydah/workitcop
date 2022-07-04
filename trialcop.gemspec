@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require_relative "lib/trialcop/version"
+require_relative "lib/workitcop/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "trialcop"
-  spec.version = Trialcop::VERSION
+  spec.name = "workitcop"
+  spec.version = Workitcop::VERSION
   spec.authors = ["ydah"]
   spec.email = ["t.yudai92@gmail.com"]
 
   spec.summary = "Custom cops for `RuboCop`."
-  spec.homepage = "https://github.com/ydah/trialcop"
+  spec.homepage = "https://github.com/ydah/workitcop"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 

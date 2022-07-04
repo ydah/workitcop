@@ -2,7 +2,7 @@
 
 require "rubocop"
 
-module Trialcop
+module Workitcop
   module Inject
     def self.defaults!
       path = CONFIG_DEFAULT.to_s
