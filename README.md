@@ -1,4 +1,4 @@
-# Workitcop
+# Workitcop [![Gem Version](https://badge.fury.io/rb/workitcop.svg)](https://badge.fury.io/rb/workitcop)
 
 Custom cops for [RuboCop](https://github.com/rubocop/rubocop).
 
