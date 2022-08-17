@@ -1,3 +1,10 @@
+require:
+  - rubocop/cop/internal_affairs
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+  - workitcop
+
 AllCops:
   TargetRubyVersion: 2.6
   SuggestExtensions: false

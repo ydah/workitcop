@@ -1,3 +1,8 @@
+---
+inherit_mode:
+  merge:
+    - Exclude
+
 Workit/ActionArgs:
   Description: |
     Check for controller action must be using `action_args`.
