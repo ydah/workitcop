@@ -4,6 +4,10 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "rake", "~> 13.0"
-gem "rspec", "~> 3.0"
-gem "rubocop", "~> 1.21"
+gem "rack"
+gem "rake"
+gem "rspec", ">= 3.4"
+gem "rubocop-performance", "~> 1.7"
+gem "rubocop-rake", "~> 0.6"
+gem "rubocop-rspec", "~> 2.11"
+gem "yard"
