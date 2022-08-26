@@ -1,3 +1,5 @@
+# Change log
+
 ## [Unreleased]
 
 - Add new `Workit/ActionArgs` cop. ([@ydah][])
