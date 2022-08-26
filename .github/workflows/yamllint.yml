@@ -1,4 +1,4 @@
-name: Linting
+name: Yamllint
 on:
   - pull_request
 jobs:
