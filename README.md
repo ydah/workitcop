@@ -6,19 +6,38 @@ Custom cops for [RuboCop](https://github.com/rubocop/rubocop).
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add workitcop
+```command
+bundle add workitcop
+```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install workitcop
+```command
+gem install workitcop
+```
 
 ## Usage
 
+You need to tell RuboCop to load the Workitcop extension.
+
+### RuboCop configuration file
+
+Put this into your `.rubocop.yml`.
+
 ```yaml
-# .rubocop.yml
+require: workitcop
+```
+
+Alternatively, use the following array notation when specifying multiple extensions.
+
+```yaml
 require:
+  - rubocop-other-extension
   - workitcop
 ```
+
+Now you can run `rubocop` and it will automatically load the Workitcop
+cops together with the standard cops.
 
 ## License
 
