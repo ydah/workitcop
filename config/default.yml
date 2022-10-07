@@ -18,6 +18,11 @@ Workit/ActionArgs:
     - cancel
     - destroy
 
+Workit/NoopRescue:
+  Description: 'Check for suppress or ignore checked exception.'
+  Enabled: false
+  VersionAdded: '0.2'
+
 Workit/RestrictOnSend:
   Description: |
     Check for `RESTRICT_ON_SEND` is defined if `on_send` or `after_send` are defined.
