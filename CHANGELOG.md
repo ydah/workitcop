@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.2.0 - 2022-11-07
+
 - Add new `Workit/ActionArgs` cop. ([@ydah])
 - Add new `Workit/NoopRescue` cop. ([@ydah])
 
