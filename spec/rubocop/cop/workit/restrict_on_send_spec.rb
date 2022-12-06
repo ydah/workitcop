@@ -24,6 +24,24 @@ RSpec.describe RuboCop::Cop::Workit::RestrictOnSend, :config do
     RUBY
   end
 
+  it "does not register an offense when not in class" do
+    expect_no_offenses(<<~RUBY)
+      def on_send(node)
+        # ...
+      end
+    RUBY
+  end
+
+  it "does not register an offense when module" do
+    expect_no_offenses(<<~RUBY)
+      module FooCop
+        def on_send(node)
+          # ...
+        end
+      end
+    RUBY
+  end
+
   it "does not register an offense when using `RESTRICT_ON_SEND` and defines `on_send`" do
     expect_no_offenses(<<~RUBY)
       class FooCop

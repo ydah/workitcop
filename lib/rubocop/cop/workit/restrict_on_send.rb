@@ -30,12 +30,14 @@ module RuboCop
 
         def on_def(node)
           return unless NEED_RESTRICT_ON_SEND.include?(node.method_name)
+          return unless (class_node = class_node(node))
 
-          class_node = class_node(node)
           add_offense(class_node) unless defined_restrict_on_send?(class_node)
         end
 
         def class_node(node)
+          return if node.parent.nil?
+
           if node.parent.class_type?
             node.parent
           else
