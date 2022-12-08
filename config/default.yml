@@ -6,7 +6,7 @@ inherit_mode:
 Workit/ActionArgs:
   Description: |
     Check for controller action must be using `action_args`.
-  Enabled: pending
+  Enabled: false
   Include:
     - 'controllers/**/*'
   ControllerMethods:
@@ -29,4 +29,4 @@ Workit/NoopRescue:
 Workit/RestrictOnSend:
   Description: |
     Check for `RESTRICT_ON_SEND` is defined if `on_send` or `after_send` are defined.
-  Enabled: pending
+  Enabled: false
