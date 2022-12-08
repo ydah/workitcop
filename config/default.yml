@@ -18,6 +18,11 @@ Workit/ActionArgs:
     - cancel
     - destroy
 
+Workit/ComitteeAssertSchemaConfirm:
+  Description: |
+    Check for not pass expected response status code to check it against the corresponding schema explicitly.
+  Enabled: false
+
 Workit/NoopRescue:
   Description: 'Check for suppress or ignore checked exception.'
   Enabled: false

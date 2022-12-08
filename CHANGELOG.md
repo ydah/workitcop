@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Fix an error for `Workit/RestrictOnSend` when not in class. ([@ydah])
+- Add new `Workit/ComitteeAssertSchemaConfirm` cop. ([@ydah])
 
 ## 0.2.0 - 2022-11-07
 
