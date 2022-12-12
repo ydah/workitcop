@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.4.0 - 2022-12-12
+
 - Add new `Workit/RSpecCapybaraPredicateMatcher` cop. ([@ydah])
 - Add new `Workit/RSpecMinitestAssertions` cop. ([@ydah])
 - Add new `Workit/RSpecCapybaraMatchStyle` cop. ([@ydah])
