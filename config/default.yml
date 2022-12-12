@@ -30,3 +30,13 @@ Workit/RestrictOnSend:
   Description: |
     Check for `RESTRICT_ON_SEND` is defined if `on_send` or `after_send` are defined.
   Enabled: false
+
+Workit/RSpecCapybaraPredicateMatcher:
+  Description: Prefer using predicate matcher over using predicate method directly.
+  Enabled: false
+  Strict: true
+  EnforcedStyle: inflected
+  AllowedExplicitMatchers: []
+  SupportedStyles:
+    - inflected
+    - explicit
