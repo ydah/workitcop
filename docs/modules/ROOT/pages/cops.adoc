@@ -1,0 +1,13 @@
+// START_COP_LIST
+
+=== Department xref:cops_workit.adoc[Workit]
+
+* xref:cops_workit.adoc#workitactionargs[Workit/ActionArgs]
+* xref:cops_workit.adoc#workitcomitteeassertschemaconfirm[Workit/ComitteeAssertSchemaConfirm]
+* xref:cops_workit.adoc#workitnooprescue[Workit/NoopRescue]
+* xref:cops_workit.adoc#workitrspeccapybaramatchstyle[Workit/RSpecCapybaraMatchStyle]
+* xref:cops_workit.adoc#workitrspeccapybarapredicatematcher[Workit/RSpecCapybaraPredicateMatcher]
+* xref:cops_workit.adoc#workitrspecminitestassertions[Workit/RSpecMinitestAssertions]
+* xref:cops_workit.adoc#workitrestrictonsend[Workit/RestrictOnSend]
+
+// END_COP_LIST

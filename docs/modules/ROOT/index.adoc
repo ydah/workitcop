@@ -1,0 +1,3 @@
+= Workitcop
+
+This is a custom cop for https://github.com/rubocop/rubocop[RuboCop]. A collection of cop like working toolkits.
