@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add new `Workit/RSpecCapybaraPredicateMatcher` cop. ([@ydah])
+
 ## 0.3.0 - 2022-12-08
 
 - Fix an error for `Workit/RestrictOnSend` when not in class. ([@ydah])
