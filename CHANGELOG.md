@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 0.4.1 - 2022-12-12
+- Add documentation. ([@ydah])
+
 ## 0.4.0 - 2022-12-12
 
 - Add new `Workit/RSpecCapybaraPredicateMatcher` cop. ([@ydah])
