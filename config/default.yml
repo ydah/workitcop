@@ -40,3 +40,7 @@ Workit/RSpecCapybaraPredicateMatcher:
   SupportedStyles:
     - inflected
     - explicit
+
+Workit/RSpecMinitestAssertions:
+  Description: Check if using Minitest matchers.
+  Enabled: false
