@@ -1,0 +1,5 @@
+name: workitcop
+title: Workitcop
+version: ~
+nav:
+  - modules/ROOT/nav.adoc
