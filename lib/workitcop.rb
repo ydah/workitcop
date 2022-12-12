@@ -11,6 +11,7 @@ require_relative "rubocop/cop/workit/action_args"
 require_relative "rubocop/cop/workit/comittee_assert_schema_confirm"
 require_relative "rubocop/cop/workit/noop_rescue"
 require_relative "rubocop/cop/workit/restrict_on_send"
+require_relative "rubocop/cop/workit/rspec_capybara_match_style"
 require_relative "rubocop/cop/workit/rspec_capybara_predicate_matcher"
 require_relative "rubocop/cop/workit/rspec_minitest_assertions"
 
