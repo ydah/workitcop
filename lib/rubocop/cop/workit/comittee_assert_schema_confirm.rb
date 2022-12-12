@@ -37,10 +37,18 @@ module RuboCop
           return if node.arguments?
 
           have_http_status(node.parent) do |child_node, value|
-            add_offense(node) do |corrector|
-              corrector.remove(range_by_whole_lines(child_node.parent.loc.expression, include_final_newline: true))
-              corrector.insert_after(node, "(#{value})")
-            end
+            return autocorrect(node, child_node, value)
+          end
+
+          add_offense(node)
+        end
+
+        private
+
+        def autocorrect(node, child_node, value)
+          add_offense(node) do |corrector|
+            corrector.remove(range_by_whole_lines(child_node.parent.loc.expression, include_final_newline: true))
+            corrector.insert_after(node, "(#{value})")
           end
         end
       end
