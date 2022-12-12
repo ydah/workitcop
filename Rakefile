@@ -7,7 +7,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 require "rubocop/rake_task"
 
-Dir['tasks/**/*.rake'].each { |t| load t }
+Dir["tasks/**/*.rake"].each { |t| load t }
 
 RuboCop::RakeTask.new
 
