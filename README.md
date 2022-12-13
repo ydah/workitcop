@@ -1,4 +1,5 @@
-# Workitcop [![Gem Version](https://badge.fury.io/rb/workitcop.svg)](https://badge.fury.io/rb/workitcop) [![CI](https://github.com/ydah/workitcop/actions/workflows/ci.yml/badge.svg)](https://github.com/ydah/workitcop/actions/workflows/ci.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/77fd345a1f0e8ab706ed/maintainability)](https://codeclimate.com/github/ydah/workitcop/maintainability)
+# Workitcop
+[![Gem Version](https://badge.fury.io/rb/workitcop.svg)](https://badge.fury.io/rb/workitcop) [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop) [![CI](https://github.com/ydah/workitcop/actions/workflows/ci.yml/badge.svg)](https://github.com/ydah/workitcop/actions/workflows/ci.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/77fd345a1f0e8ab706ed/maintainability)](https://codeclimate.com/github/ydah/workitcop/maintainability)
 
 Custom cops for [RuboCop](https://github.com/rubocop/rubocop).
 
@@ -16,28 +17,13 @@ If bundler is not being used to manage dependencies, install the gem by executin
 gem install workitcop
 ```
 
-## Usage
+## Documentation
 
-You need to tell RuboCop to load the Workitcop extension.
+You can read a lot more about Workitcop in its [official docs](https://ydah.github.io/docs.wkt).
 
-### RuboCop configuration file
+## Changelog
 
-Put this into your `.rubocop.yml`.
-
-```yaml
-require: workitcop
-```
-
-Alternatively, use the following array notation when specifying multiple extensions.
-
-```yaml
-require:
-  - rubocop-other-extension
-  - workitcop
-```
-
-Now you can run `rubocop` and it will automatically load the Workitcop
-cops together with the standard cops.
+Workitcop's changelog is available [here](https://github.com/ydah/workitcop/blob/main/CHANGELOG.md).
 
 ## License
 
