@@ -65,6 +65,23 @@ end
 
 Check for not pass expected response status code to check it against the corresponding schema explicitly.
 
+This cop is deprecated.
+
+== Workit/CommitteeExpectedResponseStatusCode
+
+|===
+| Enabled by default | Safe | Supports autocorrection | Version Added | Version Changed
+
+| Disabled
+| Yes
+| Yes
+| -
+| -
+|===
+
+Check if the status code is specified as an argument to the method of the Committee
+where the expected response status code is required.
+
 === Examples
 
 [source,ruby]
@@ -73,14 +90,12 @@ Check for not pass expected response status code to check it against the corresp
 it 'something' do
   subject
   expect(response).to have_http_status 400
-  do_something
   assert_schema_conform
 end
 
 # good
 it 'something' do
   subject
-  do_something
   assert_schema_conform(400)
 end
 ----
@@ -294,6 +309,38 @@ refute_equal(a, b)
 expect(a).to eq(b)
 expect(a).to(eq(b), "must be equal")
 expect(a).not_to eq(b)
+----
+
+== Workit/RSpecRedundantHttpStatus
+
+|===
+| Enabled by default | Safe | Supports autocorrection | Version Added | Version Changed
+
+| Disabled
+| Yes
+| Yes
+| -
+| -
+|===
+
+Check for validation of redundant response HTTP status codes.
+
+=== Examples
+
+[source,ruby]
+----
+# bad
+it 'something' do
+  subject
+  expect(response).to have_http_status 400
+  assert_schema_conform(400)
+end
+
+# good
+it 'something' do
+  subject
+  assert_schema_conform(400)
+end
 ----
 
 == Workit/RestrictOnSend

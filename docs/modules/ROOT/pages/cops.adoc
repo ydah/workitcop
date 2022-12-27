@@ -4,10 +4,12 @@
 
 * xref:cops_workit.adoc#workitactionargs[Workit/ActionArgs]
 * xref:cops_workit.adoc#workitcomitteeassertschemaconfirm[Workit/ComitteeAssertSchemaConfirm]
+* xref:cops_workit.adoc#workitcommitteeexpectedresponsestatuscode[Workit/CommitteeExpectedResponseStatusCode]
 * xref:cops_workit.adoc#workitnooprescue[Workit/NoopRescue]
 * xref:cops_workit.adoc#workitrspeccapybaramatchstyle[Workit/RSpecCapybaraMatchStyle]
 * xref:cops_workit.adoc#workitrspeccapybarapredicatematcher[Workit/RSpecCapybaraPredicateMatcher]
 * xref:cops_workit.adoc#workitrspecminitestassertions[Workit/RSpecMinitestAssertions]
+* xref:cops_workit.adoc#workitrspecredundanthttpstatus[Workit/RSpecRedundantHttpStatus]
 * xref:cops_workit.adoc#workitrestrictonsend[Workit/RestrictOnSend]
 
 // END_COP_LIST
