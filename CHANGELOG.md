@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Deprecate `Workit/ComitteeAssertSchemaConfirm`. ([@ydah])
+- Add new `Workit/CommitteeExpectedResponseStatusCode` and `Workit/RSpecRedundantHttpStatus`. ([@ydah])
+
 ## 0.4.2 - 2022-12-12
 
 - Fix a false negative for `Workit/ComitteeAssertSchemaConfirm`. ([@ydah])
