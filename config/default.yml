@@ -8,7 +8,7 @@ Workit/ActionArgs:
     Check for controller action must be using `action_args`.
   Enabled: false
   Include:
-    - 'controllers/**/*'
+    - "controllers/**/*"
   ControllerMethods:
     - index
     - show
@@ -22,8 +22,14 @@ Workit/ComitteeAssertSchemaConfirm:
     Check for not pass expected response status code to check it against the corresponding schema explicitly.
   Enabled: false
 
+Workit/CommitteeExpectedResponseStatusCode:
+  Description: |
+    Check if the status code is specified as an argument to the method of the Committee
+    where the expected response status code is required.
+  Enabled: false
+
 Workit/NoopRescue:
-  Description: 'Check for suppress or ignore checked exception.'
+  Description: "Check for suppress or ignore checked exception."
   Enabled: false
 
 Workit/RestrictOnSend:
@@ -47,4 +53,8 @@ Workit/RSpecCapybaraPredicateMatcher:
 
 Workit/RSpecMinitestAssertions:
   Description: Check if using Minitest matchers.
+  Enabled: false
+
+Workit/RSpecRedundantHttpStatus:
+  Description: Check for validation of redundant response HTTP status codes.
   Enabled: false
