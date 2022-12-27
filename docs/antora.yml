@@ -1,5 +1,5 @@
 name: workitcop
 title: Workitcop
-version: 0.5.0
+version: ~
 nav:
   - modules/ROOT/nav.adoc
