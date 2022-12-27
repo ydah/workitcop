@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.4.2 - 2022-12-12
+
 - Fix a false negative for `Workit/ComitteeAssertSchemaConfirm`. ([@ydah])
 
 ## 0.4.1 - 2022-12-12
