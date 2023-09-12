@@ -32,6 +32,10 @@ Workit/NoopRescue:
   Description: "Check for suppress or ignore checked exception."
   Enabled: false
 
+Workit/RedundantBooleanConditional:
+  Description: "Checks for redundant boolean conditions."
+  Enabled: false
+
 Workit/RestrictOnSend:
   Description: |
     Check for `RESTRICT_ON_SEND` is defined if `on_send` or `after_send` are defined.

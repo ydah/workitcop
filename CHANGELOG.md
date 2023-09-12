@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Add new `Workit/RedundantBooleanConditional` cop. ([@ydah])
+
 ## 0.5.0 - 2022-12-27
 
 - Deprecate `Workit/ComitteeAssertSchemaConfirm`. ([@ydah])
