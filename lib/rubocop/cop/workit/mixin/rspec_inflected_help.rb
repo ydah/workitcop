@@ -69,7 +69,7 @@ module RuboCop
 
         def remove_predicate(corrector, predicate)
           range = predicate.loc.dot.with(
-            end_pos: predicate.loc.expression.end_pos
+            end_pos: predicate.source_range.end_pos
           )
 
           corrector.remove(range)
@@ -84,7 +84,7 @@ module RuboCop
           block = block_loc ? block_loc.source : ""
 
           corrector.replace(
-            matcher.loc.expression,
+            matcher,
             to_predicate_matcher(predicate.method_name) + args + block
           )
         end

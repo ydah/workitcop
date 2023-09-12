@@ -32,7 +32,7 @@ module RuboCop
         #      ^^^^^
         def args_loc(send_node)
           send_node.loc.selector.end.with(
-            end_pos: send_node.loc.expression.end_pos
+            end_pos: send_node.source_range.end_pos
           )
         end
 
@@ -44,8 +44,8 @@ module RuboCop
           parent = send_node.parent
           return unless parent.block_type?
 
-          send_node.loc.expression.end.with(
-            end_pos: parent.loc.expression.end_pos
+          send_node.source_range.end.with(
+            end_pos: parent.source_range.end_pos
           )
         end
       end
