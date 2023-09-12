@@ -28,6 +28,6 @@ Style/StringLiteralsInInterpolation:
 RSpec/ExampleLength:
   Enabled: false
 
-RSpec/FilePath:
+RSpec/SpecFilePathFormat:
   Exclude:
     - spec/rubocop/cop/workit/rspec*.rb
