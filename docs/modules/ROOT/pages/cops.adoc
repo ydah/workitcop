@@ -4,6 +4,7 @@
 
 * xref:cops_workit.adoc#workitactionargs[Workit/ActionArgs]
 * xref:cops_workit.adoc#workitnooprescue[Workit/NoopRescue]
+* xref:cops_workit.adoc#workitrspecredundanthttpstatus[Workit/RSpecRedundantHttpStatus]
 * xref:cops_workit.adoc#workitredundantbooleanconditional[Workit/RedundantBooleanConditional]
 * xref:cops_workit.adoc#workitrestrictonsend[Workit/RestrictOnSend]
 
