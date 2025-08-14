@@ -17,17 +17,6 @@ Workit/ActionArgs:
     - cancel
     - destroy
 
-Workit/ComitteeAssertSchemaConfirm:
-  Description: |
-    Check for not pass expected response status code to check it against the corresponding schema explicitly.
-  Enabled: false
-
-Workit/CommitteeExpectedResponseStatusCode:
-  Description: |
-    Check if the status code is specified as an argument to the method of the Committee
-    where the expected response status code is required.
-  Enabled: false
-
 Workit/NoopRescue:
   Description: "Check for suppress or ignore checked exception."
   Enabled: false
@@ -39,24 +28,6 @@ Workit/RedundantBooleanConditional:
 Workit/RestrictOnSend:
   Description: |
     Check for `RESTRICT_ON_SEND` is defined if `on_send` or `after_send` are defined.
-  Enabled: false
-
-Workit/RSpecCapybaraMatchStyle:
-  Description: Checks for usage of deprecated style methods.
-  Enabled: false
-
-Workit/RSpecCapybaraPredicateMatcher:
-  Description: Prefer using predicate matcher over using predicate method directly.
-  Enabled: false
-  Strict: true
-  EnforcedStyle: inflected
-  AllowedExplicitMatchers: []
-  SupportedStyles:
-    - inflected
-    - explicit
-
-Workit/RSpecMinitestAssertions:
-  Description: Check if using Minitest matchers.
   Enabled: false
 
 Workit/RSpecRedundantHttpStatus:

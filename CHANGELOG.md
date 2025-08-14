@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Remove deprecated cops. ([@ydah])
+- Pluginfy Workitcop. ([@ydah])
 - Add new `Workit/RedundantBooleanConditional` cop. ([@ydah])
 
 ## 0.5.0 - 2022-12-27
