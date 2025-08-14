@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["ydah"]
   spec.email = ["t.yudai92@gmail.com"]
 
-  spec.summary = "Custom cops for `RuboCop`."
+  spec.summary = "A custom cop collection of working toolkits."
   spec.homepage = "https://github.com/ydah/workitcop"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
