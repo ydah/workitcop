@@ -1,6 +1,6 @@
 # Workitcop
 
-![GitHub top language](https://img.shields.io/github/languages/top/ydah/workitcop?color=39ff14) [![Gem Version](https://badge.fury.io/rb/workitcop.svg)](https://badge.fury.io/rb/workitcop) [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop) [![CI](https://github.com/ydah/workitcop/actions/workflows/ci.yml/badge.svg)](https://github.com/ydah/workitcop/actions/workflows/ci.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/77fd345a1f0e8ab706ed/maintainability)](https://codeclimate.com/github/ydah/workitcop/maintainability)
+[![Gem Version](https://badge.fury.io/rb/workitcop.svg)](https://badge.fury.io/rb/workitcop) [![CI](https://github.com/ydah/workitcop/actions/workflows/ci.yml/badge.svg)](https://github.com/ydah/workitcop/actions/workflows/ci.yml)
 
 A custom cop collection of working toolkits.
 
