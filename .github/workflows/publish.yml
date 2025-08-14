@@ -2,7 +2,7 @@ name: Publish
 on:
   push:
     branches: main
-    paths: lib/rubocop/workitcop/version.rb
+    paths: lib/workitcop/version.rb
 jobs:
   publish:
     name: Publish to RubyGems
