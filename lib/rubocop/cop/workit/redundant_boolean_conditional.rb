@@ -42,7 +42,7 @@ module RuboCop
         def redundant?(node)
           return false if node.else? || node.elsif? || node.elsif_conditional? || node.ternary?
 
-          node.if_branch.true_type? || node.if_branch.false_type?
+          node.if_branch.true_type? || node.if_branch.false_type? # rubocop:disable InternalAffairs/NodeTypeMultiplePredicates
         end
 
         def replacement_condition(node)
@@ -53,7 +53,7 @@ module RuboCop
         end
 
         def invert_expression?(node)
-          (!node.elsif_conditional? && (node.if? && node.if_branch.false_type?)) ||
+          (!node.elsif_conditional? && node.if? && node.if_branch.false_type?) ||
             (node.unless? && node.if_branch.true_type?)
         end
 

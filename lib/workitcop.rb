@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "workitcop/inject"
+require "rubocop"
+require "rubocop-rspec"
+
 require_relative "workitcop/version"
+require_relative "workitcop/plugin"
 
 require_relative "rubocop/cop/workit/mixin/rspec_explicit_help"
 require_relative "rubocop/cop/workit/mixin/rspec_inflected_help"
@@ -19,12 +22,3 @@ require_relative "rubocop/cop/workit/rspec_redundant_http_status"
 
 # deprecated
 require_relative "rubocop/cop/workit/comittee_assert_schema_confirm"
-
-module Workitcop
-  PROJECT_ROOT = ::Pathname.new(__dir__).parent.expand_path.freeze
-  CONFIG_DEFAULT = PROJECT_ROOT.join("config", "default.yml").freeze
-  CONFIG = ::YAML.safe_load(CONFIG_DEFAULT.read).freeze
-  private_constant(:CONFIG_DEFAULT, :PROJECT_ROOT)
-end
-
-Workitcop::Inject.defaults!

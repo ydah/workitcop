@@ -6,8 +6,8 @@ gemspec
 
 gem "rack"
 gem "rake"
-gem "rspec", ">= 3.4"
+gem "rspec", "~> 3.11"
 gem "rubocop-performance", "~> 1.7"
-gem "rubocop-rake", "~> 0.6"
-gem "rubocop-rspec", "~> 2.11"
+gem "rubocop-rake", "~> 0.7"
+gem "rubocop-rspec", "~> 3.5"
 gem "yard"
